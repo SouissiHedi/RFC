@@ -1,0 +1,79 @@
+{
+    "training_timestamp": "20260209_205036",
+    "best_recall_model": {
+        "name": "logistic_regression",
+        "metrics": {
+            "accuracy": 0.8655,
+            "precision": 0.18495297805642633,
+            "recall": 0.8676470588235294,
+            "f1": 0.3049095607235142,
+            "roc_auc": 0.9365180854950677
+        },
+        "timestamp_file": "model_best_recall_20260209_205036.pkl",
+        "latest_file": "model_best_recall_latest.pkl"
+    },
+    "best_f1_model": {
+        "name": "xgboost",
+        "metrics": {
+            "accuracy": 0.9855,
+            "precision": 0.76,
+            "recall": 0.8382352941176471,
+            "f1": 0.7972027972027972,
+            "roc_auc": 0.9842665327000366
+        },
+        "timestamp_file": "model_best_f1_20260209_205036.pkl",
+        "latest_file": "model_best_f1_latest.pkl"
+    },
+    "best_auc_model": {
+        "name": "xgboost",
+        "metrics": {
+            "accuracy": 0.9855,
+            "precision": 0.76,
+            "recall": 0.8382352941176471,
+            "f1": 0.7972027972027972,
+            "roc_auc": 0.9842665327000366
+        },
+        "timestamp_file": "same_as_other_best",
+        "latest_file": "same_as_other_best"
+    },
+    "all_models": {
+        "logistic_regression": {
+            "metrics": {
+                "accuracy": 0.8655,
+                "precision": 0.18495297805642633,
+                "recall": 0.8676470588235294,
+                "f1": 0.3049095607235142,
+                "roc_auc": 0.9365180854950677
+            },
+            "timestamp_file": "..\\artifacts\\run_20260209_205036\\model_logistic_regression_20260209_205036.pkl",
+            "latest_file": "..\\artifacts\\latest\\model_logistic_regression_latest.pkl"
+        },
+        "random_forest": {
+            "metrics": {
+                "accuracy": 0.988,
+                "precision": 0.94,
+                "recall": 0.6911764705882353,
+                "f1": 0.7966101694915254,
+                "roc_auc": 0.973366520521252
+            },
+            "timestamp_file": "..\\artifacts\\run_20260209_205036\\model_random_forest_20260209_205036.pkl",
+            "latest_file": "..\\artifacts\\latest\\model_random_forest_latest.pkl"
+        },
+        "xgboost": {
+            "metrics": {
+                "accuracy": 0.9855,
+                "precision": 0.76,
+                "recall": 0.8382352941176471,
+                "f1": 0.7972027972027972,
+                "roc_auc": 0.9842665327000366
+            },
+            "timestamp_file": "..\\artifacts\\run_20260209_205036\\model_xgboost_20260209_205036.pkl",
+            "latest_file": "..\\artifacts\\latest\\model_xgboost_latest.pkl"
+        }
+    },
+    "data_info": {
+        "train_samples": 8000,
+        "test_samples": 2000,
+        "random_state": 42
+    }
+}

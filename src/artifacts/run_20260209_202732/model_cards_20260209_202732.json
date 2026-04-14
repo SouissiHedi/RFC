@@ -1,0 +1,44 @@
+{
+    "logistic_regression": {
+        "model_name": "logistic_regression",
+        "training_date": "20260209_202732",
+        "metrics": {
+            "accuracy": 0.8655,
+            "precision": 0.18495297805642633,
+            "recall": 0.8676470588235294,
+            "f1": 0.3049095607235142,
+            "roc_auc": 0.9365180854950677
+        },
+        "version": "1.0",
+        "framework": "scikit-learn",
+        "created_by": "model_training_pipeline"
+    },
+    "random_forest": {
+        "model_name": "random_forest",
+        "training_date": "20260209_202732",
+        "metrics": {
+            "accuracy": 0.988,
+            "precision": 0.94,
+            "recall": 0.6911764705882353,
+            "f1": 0.7966101694915254,
+            "roc_auc": 0.973366520521252
+        },
+        "version": "1.0",
+        "framework": "scikit-learn",
+        "created_by": "model_training_pipeline"
+    },
+    "xgboost": {
+        "model_name": "xgboost",
+        "training_date": "20260209_202732",
+        "metrics": {
+            "accuracy": 0.9855,
+            "precision": 0.76,
+            "recall": 0.8382352941176471,
+            "f1": 0.7972027972027972,
+            "roc_auc": 0.9842665327000366
+        },
+        "version": "1.0",
+        "framework": "scikit-learn",
+        "created_by": "model_training_pipeline"
+    }
+}
